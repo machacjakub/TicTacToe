@@ -20,8 +20,8 @@ export default function App() {
     <>
     <Router>
       <nav>
-          <Link to="/"> <img className='logo' src={logo} width="100px" height="100px" alt='homepage'/></Link>
-          <Link to="/about" className='about'><img src={about} width="40px" height="40px" alt='about'/></Link>
+          <Link to="/TicTacToe/"> <img className='logo' src={logo} width="100px" height="100px" alt='homepage'/></Link>
+          <Link to="/TicTacToe/about" className='about'><img src={about} width="40px" height="40px" alt='about'/></Link>
         </nav>
       <Routes>
         <Route path="/TicTacToe/" element={<Home/>}/>
