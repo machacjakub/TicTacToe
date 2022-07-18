@@ -24,12 +24,12 @@ export default function App() {
           <Link to="/about" className='about'><img src={about} width="40px" height="40px" alt='about'/></Link>
         </nav>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/about" element={<About/>}/>
-        <Route path="/explore" element={<Explore/>}/>
-        <Route path="/pvp" element={<PvP/>}/>
-        <Route path="/singleplayer" element={<PvC/>}/>
-        <Route path="*" element={<ErrorPage/>}/>
+        <Route path="/TicTacToe/" element={<Home/>}/>
+        <Route path="/TicTacToe/about" element={<About/>}/>
+        <Route path="/TicTacToe/explore" element={<Explore/>}/>
+        <Route path="/TicTacToe/pvp" element={<PvP/>}/>
+        <Route path="/TicTacToe/singleplayer" element={<PvC/>}/>
+        <Route path="/TicTacToe/*" element={<ErrorPage/>}/>
       </Routes>
       <footer className='center'>Created by curiosity with a help of beginner's mind</footer>
     </Router>
