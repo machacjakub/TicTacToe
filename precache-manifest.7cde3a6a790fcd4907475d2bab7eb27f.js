@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "34f1786df83d629bf8de",
+    "revision": "f528daa8fde2ade27284",
     "url": "/TicTacToe/static/css/main.852a8ba9.chunk.css"
   },
   {
-    "revision": "34f1786df83d629bf8de",
-    "url": "/TicTacToe/static/js/main.34f1786d.chunk.js"
+    "revision": "f528daa8fde2ade27284",
+    "url": "/TicTacToe/static/js/main.f528daa8.chunk.js"
   },
   {
     "revision": "8c98aab82769540efb62",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/TicTacToe/static/media/logo.caa601b8.png"
   },
   {
-    "revision": "7c05349916a59f6fe8190da7bd311202",
+    "revision": "ea3a07475f94438f40d7afbb553a3651",
     "url": "/TicTacToe/index.html"
   }
 ];
