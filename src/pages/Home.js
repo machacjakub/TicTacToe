@@ -10,7 +10,7 @@ function Home() {
         <div className='hplinks'>
             <HomePageLink navigate="/TicTacToe/explore" text="Explore mode"/>
             <HomePageLink navigate="/TicTacToe/singleplayer" text="Single player"/>
-            <HomePageLink navigate="/TicTacToe/pvp" text="Player vs. player"/>
+            <HomePageLink navigate="/TicTacToe/pvp" text="Two players"/>
         </div>
         <p className='center homepage'>Enjoy the game!</p>
     </>

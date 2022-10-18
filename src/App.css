@@ -15,6 +15,8 @@ nav{
   left:0;
 }
 a{
+  text-decoration: none;
+  color: black;
   display: block;
   margin: 10px;
 }
@@ -189,6 +191,7 @@ footer{
 .score{
   width: 207px;
   margin-top: 23px;
+  margin-bottom: 70px;
   border: 2px solid black;
   border-radius: 8px;
   padding: 5px;
@@ -201,3 +204,10 @@ footer{
   width: 20px;
 }
 
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .logo{
+    margin-left: auto;
+    width: 20%;
+    height: 20%;
+  }
+}

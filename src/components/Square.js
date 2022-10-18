@@ -23,12 +23,6 @@ function Square(props) {
         setVal(null);
     }
 
-    /** smazaná funkce -----------------------------
-    function highliteCell(e){
-        if(props.highlight == true );
-    }
- */
-
     return (
     <button className="square"
         onClick={props.onClick}
